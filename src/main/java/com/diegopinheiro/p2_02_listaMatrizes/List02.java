@@ -7,11 +7,11 @@ public class List02 {
 		int column = interestRates.length;
 		int row = numPeriods + 1;
 		int countWhile = 0;
-		int countIfRowBiggerThan1;
+		int countIfRowGreaterThanOne;
 		double[][] matrix = new double[row][column];
 
 		for (int i = 0; i < row; i++) {
-			countIfRowBiggerThan1 = i + 2;
+			countIfRowGreaterThanOne = i + 2;
 			while (countWhile < column) {
 				matrix[0][countWhile] = initialAmount;
 				interestRates[countWhile] += 1;
@@ -25,8 +25,8 @@ public class List02 {
 					if (matrix[row - 1][column - 1] != 0) {
 						break;
 					}
-					matrix[countIfRowBiggerThan1][j] = (matrix[countIfRowBiggerThan1 - 1][j]
-							/ matrix[countIfRowBiggerThan1 - 2][j]) * matrix[countIfRowBiggerThan1 - 1][j];
+					matrix[countIfRowGreaterThanOne][j] = (matrix[countIfRowGreaterThanOne - 1][j]
+							/ matrix[countIfRowGreaterThanOne - 2][j]) * matrix[countIfRowGreaterThanOne - 1][j];
 				}
 			}
 
