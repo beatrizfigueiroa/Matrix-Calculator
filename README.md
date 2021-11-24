@@ -8,20 +8,20 @@ Activity proposed: Make all Junit tests pass
 (For this it must be given the initial amount, the number of periods to calculate the final amount and a vector of interest rates to be analyzed)
 
 
-2. Implement methods ables to return 
+2. Implement methods ables to return:
 
-*matrix multiplication
+  *matrix multiplication
 
-*matrix transpose 
+  *matrix transpose 
 
-*submatrix
+  *submatrix
 
-*matrix determinant 
+  *matrix determinant 
 
-*matrix cofactor
+  *matrix cofactor
 
-*matrix adjugated
+  *matrix adjugated
 
-*matrix inverse 
+  *matrix inverse 
 
 3. Implement a method to check wether the matrix is singular.
