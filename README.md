@@ -10,18 +10,18 @@ Activity proposed: Make all Junit tests pass
 
 2. Implement methods ables to return:
 
-  *matrix multiplication
+    *matrix multiplication
 
-  *matrix transpose 
+    *matrix transpose 
 
-  *submatrix
+    *submatrix
 
-  *matrix determinant 
+    *matrix determinant 
 
-  *matrix cofactor
+    *matrix cofactor
 
-  *matrix adjugated
+    *matrix adjugated
 
-  *matrix inverse 
+    *matrix inverse 
 
-3. Implement a method to check wether the matrix is singular.
+3. Implement a method to check wether the matrix is singular or not.
